@@ -39,4 +39,29 @@ body {
     text-align: center;
     padding: 1rem;
   }
+
+  /* Basic styles for mobile */
+@media (max-width: 768px) {
+    header {
+      text-align: center;
+    }
+  
+    nav a {
+      display: block;
+      margin: 1rem 0;
+    }
+  
+    .hero {
+      padding: 1rem;
+    }
+  
+    .courses ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    footer {
+      font-size: 0.8rem;
+    }
+  }
   
